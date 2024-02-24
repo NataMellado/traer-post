@@ -1,0 +1,33 @@
+:root {
+    /* Colors */
+    --clr-pr1: #0E303B;
+    --clr-pr2: #FBE02C;
+    --clr-pr3: #FE4D72;
+    --clr-white: #fff;
+
+    /* Fonts */
+    --ff-pr: 'Montserrat', sans-serif;
+
+    /* Font Sizes */
+    --fs-h1: 1.875rem;
+    --fs-h2: 1.125rem;
+    --fs-p: 1rem;
+    --fs-btn: 1rem;
+
+    /* Font Weights */
+    --fw-500: 500;
+    --fw-700: 700;
+
+    /* border-radius */
+    --br-1: 1.5rem;
+
+    @media (min-width: 768px) {
+        /* Font Sizes */
+        --fs-h1: 2.813rem;
+        --fs-h2: 1.rem;
+        --fs-p: 1.375rem;
+        --fs-btn: 1.375rem;
+    }
+
+
+}
