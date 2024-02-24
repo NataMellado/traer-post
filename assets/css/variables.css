@@ -21,7 +21,10 @@
     /* border-radius */
     --br-1: 1.5rem;
 
-    @media (min-width: 768px) {
+    /* avatar */
+    --avatar: 2.5rem;
+
+    @media (min-width: 840px) {
         /* Font Sizes */
         --fs-h1: 2.813rem;
         --fs-h2: 1.rem;
