@@ -59,6 +59,11 @@ header .content button {
     width: 100%;
 }
 
+header .content button:hover {
+    background-color: var(--clr-pr3);
+    color: var(--clr-white);
+}
+
 header .hero-img {
     max-height: 100dvh;
     width: 100%;
