@@ -1,9 +1,9 @@
 :root {
     /* Colors */
-    --clr-pr1: #0E303B;
-    --clr-pr2: #FBE02C;
-    --clr-pr3: #FE4D72;
-    --clr-white: #fff;
+    --clr-pr1: #B28EFA;
+    --clr-pr2: #E3FF2B;
+    --clr-pr3: #FD6D34;
+    --clr-black: #000000;
 
     /* Fonts */
     --ff-pr: 'Montserrat', sans-serif;

@@ -50,14 +50,14 @@ header .content {
 
 header .content h1 {
     font-size: var(--fs-h1);
-    color: var(--clr-white);
+    color: var(--clr-black);
     font-weight: var(--fw-700);
     margin-bottom: 1rem;
 }
 
 header .content h2 {
     font-size: var(--fs-h2);
-    color: var(--clr-white);
+    color: var(--clr-black);
     font-weight: var(--fw-500);
 }
 
