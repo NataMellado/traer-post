@@ -4,8 +4,11 @@ import {PostCard} from './postCard.js';
 async function getPost() {
     const url = 'https://jsonplaceholder.typicode.com/posts';
     const postData = document.getElementById('post-data');
+    const main = document.querySelector('main');
 
     try {
+        main.classList.remove('hidden');
+        postData.classList.remove('hidden');
         postData.innerHTML = '';
         const response = await fetch(url);
         const data = await response.json();
@@ -16,7 +19,7 @@ async function getPost() {
             postData.appendChild(list);
         });
 
-        postData.style.display = 'block';
+        
         scrollToPostData();
         return "Tarjetas de publicaciones creadas exitosamente";
     } 
@@ -35,8 +38,8 @@ function handleButtonClick() {
 // Assign the handleButtonClick function to the button
 document.getElementById('getPostButton').onclick = handleButtonClick;
 
-// Function to smottly scroll to the top of the #post-data element
+// Function to smottly scroll to the top of the main
 function scrollToPostData() {
-    const postData = document.getElementById('post-data');
-    postData.scrollIntoView({behavior: 'smooth'});
+    const main = document.querySelector('main');
+    main.scrollIntoView({behavior: 'smooth'});
 }

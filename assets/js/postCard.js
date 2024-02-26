@@ -15,9 +15,8 @@ class PostCard {
         title.classList.add('card-title');
 
         const body = document.createElement('p');
-        body.textContent = this.post.body;
+        body.textContent = this.post.body + '.';
         body.classList.add('card-body');
-
 
         card.appendChild(title);
         card.appendChild(body);

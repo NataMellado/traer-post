@@ -1,6 +1,6 @@
 :root {
     /* Colors */
-    --clr-pr1: #B28EFA;
+    --clr-pr1: 178, 142, 250;
     --clr-pr2: #E3FF2B;
     --clr-pr3: #FD6D34;
     --clr-black: #000000;
@@ -11,7 +11,8 @@
     /* Font Sizes */
     --fs-h1: 1.875rem;
     --fs-h2: 1.125rem;
-    --fs-p: 1rem;
+    --fs-h3: 0.85rem;
+    --fs-p: 0.75rem;
     --fs-btn: 1rem;
 
     /* Font Weights */
@@ -27,8 +28,9 @@
     @media (min-width: 840px) {
         /* Font Sizes */
         --fs-h1: 2.813rem;
-        --fs-h2: 1.rem;
-        --fs-p: 1.375rem;
+        --fs-h2: 1.3rem;
+        --fs-h3: 1.125rem;
+        --fs-p: 1rem;
         --fs-btn: 1.25rem;
     }
 
